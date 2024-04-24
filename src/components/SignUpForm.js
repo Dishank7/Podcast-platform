@@ -109,7 +109,7 @@ const SignUpForm = () => {
                 <Input 
                 state={confirmPassword}
                 setState={setConfirmPassword}
-                placeholder={"ConfirmPass"}
+                placeholder={"ConfirmPassword"}
                 type={'password'}
                 required={true}     
                 ></Input>
