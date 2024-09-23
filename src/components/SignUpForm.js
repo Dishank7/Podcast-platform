@@ -113,11 +113,11 @@ const SignUpForm = () => {
                 type={'password'}
                 required={true}     
                 ></Input>
-                <CustomInput
+                {/* <CustomInput
                 accept={"image/*"}
                 id="profile-image-input"
                 fileHandlefnc={profileImghandle}
-                text={"Profile Image Upload(optional)"}/>
+                text={"Profile Image Upload(optional)"}/> */}
                 <button 
                 className="sign-btn"
                 onClick= {SignUp}

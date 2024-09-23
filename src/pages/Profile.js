@@ -4,6 +4,7 @@ import { signOut } from "firebase/auth";
 import { auth } from "../firebase";
 import { toast } from "react-toastify";
 import Loader from "../components/Loader";
+import userImage from '../Images/user.png'
 
 
 
@@ -34,7 +35,7 @@ const Profile = () => {
         <div className="wrapper-div">
         <h1>{userData.name.toUpperCase()}</h1>
         <div className="profile-img-div">
-          <img src={userData.profileImg} className="profile-img"/>
+          <img src={userImage} className="profile-img"/>
         </div>
         <button onClick={handleLogout} className="Logout-btn">Logout</button>
         </div>
