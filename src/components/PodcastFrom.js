@@ -52,7 +52,7 @@ const PodcastFrom = () =>{
 
        toast.success("Image uploaded");
        setLoading(false);
-       navigate('/podcast')
+       navigate('/podcasts')
         
        } catch (error) {
         toast.error(error.message)
